@@ -1,0 +1,48 @@
+.footer {
+  max-width: 2000px;
+  margin: 0 auto;
+  background: #0d001a;
+  color: #c6c0d0;
+}
+.final-texto {
+  font: 400 22px poppins;
+  padding: 50px;
+}
+.redes-final {
+  display: flex;
+  align-items: end;
+  flex-direction: column;
+  padding: 20px;
+  gap: 20px;
+}
+.caceta {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font: 400 22px poppins;
+}
+.footer a {
+  text-decoration: none;
+  color: #c6c0d0;
+}
+.direitos {
+  text-align: center;
+  font: 700 20px poppins;
+  padding: 10px;
+}
+.caceta a:hover {
+  transition: 0.3s;
+  background: #188b4c;
+  border-radius: 20px;
+}
+.duas-cores {
+  justify-self: right;
+  padding: 10px;
+  top: 50px;
+  position: relative;
+}
+@media (max-width: 464px) {
+  .final-texto {
+    text-align: center;
+  }
+}

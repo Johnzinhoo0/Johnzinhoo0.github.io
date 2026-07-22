@@ -1,0 +1,67 @@
+.section {
+  max-width: 2000px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #c7c0d0;
+  position: relative;
+}
+.habilidades {
+  display: flex;
+  padding: 100px;
+  gap: 10px;
+}
+.experiencia {
+  align-self: center;
+  color: #742fb9;
+  background-image: linear-gradient(to top, #742fb9, #341553);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  font: 300 32px poppins;
+}
+.curso {
+  font: 300 32px poppins;
+  align-self: center;
+  color: #742fb9;
+  background-image: linear-gradient(to top, #742fb9, #341553);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+.visao1 {
+  font: 300 20px poppins;
+  color: #2c2a30;
+}
+li span {
+  color: #742fb9;
+  background-image: linear-gradient(to top, #742fb9, #341553);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+@media (max-width: 1000px) {
+  .section {
+    flex-direction: column;
+  }
+  .experiencia {
+    font: 300 26px poppins;
+  }
+  .curso {
+    font: 300 26px poppins;
+  }
+}
+@media (max-width: 464px) {
+  .habilidades {
+    display: grid;
+    padding: 50px;
+  }
+  .setas {
+    display: none;
+  }
+}

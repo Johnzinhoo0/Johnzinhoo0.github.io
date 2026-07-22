@@ -1,0 +1,64 @@
+.intro {
+  max-width: 2000px;
+  margin: 0 auto;
+  display: grid;
+  justify-content: center;
+  gap: 10px;
+  padding: 50px;
+  text-align: center;
+}
+.oi {
+  font: 600 42px poppins;
+  color: #2c2a30;
+}
+
+.Meu {
+  font: 400 18px poppins;
+  color: #7a7481;
+}
+.teste1 {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  position: relative;
+  right: 40px;
+}
+.intro a {
+  text-decoration: none;
+  background: #742fb9;
+  padding: 5px;
+  width: 150px;
+  justify-self: center;
+  border-radius: 100px;
+  font: 700 24px poppins;
+  color: white;
+  corner-shape: squircle;
+  border: solid black 1px;
+}
+.intro a:hover {
+  transition: 0.3s;
+  background: #019142;
+  border-radius: 95px;
+}
+.intro img {
+  justify-self: center;
+}
+.cidade {
+  font: 600 24px poppins;
+}
+.apresentacao {
+  font: 300 24px lato;
+  letter-spacing: 1px;
+  padding: 10px;
+}
+@media (max-width: 464px) {
+  .teste1 {
+    right: 0px;
+  }
+  .emojii {
+    display: none;
+  }
+  .apresentacao {
+    letter-spacing: 0px;
+  }
+}
