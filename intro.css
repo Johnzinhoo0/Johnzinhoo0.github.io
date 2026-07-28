@@ -58,7 +58,9 @@
   .emojii {
     display: none;
   }
-  .apresentacao {
-    letter-spacing: 0px;
+}
+@media (max-width: 464px) {
+  .corte {
+    display: none;
   }
 }
